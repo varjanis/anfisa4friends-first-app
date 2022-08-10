@@ -17,5 +17,7 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
+    path('', ice_cream)
     path('admin/', admin.site.urls),
+
 ]
